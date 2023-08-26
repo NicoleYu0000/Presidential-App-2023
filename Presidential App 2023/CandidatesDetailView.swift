@@ -22,6 +22,12 @@ struct CandidateDetailView: View {
                 Text("\(candidate.age)")
             }
             
+            Section("Career"){
+                TextField("Enter Career",text:$candidate.mianCareer)
+               //Text("🪂")
+                //Text("Demo has a amazing career of sky diving! \nVote for him so every Singaporean can learn to fly in the sky!")
+            }
+            
             Section("Vote here") {
                 Text("\(candidate.votes)")
                 Button("Vote for this candidate") {
