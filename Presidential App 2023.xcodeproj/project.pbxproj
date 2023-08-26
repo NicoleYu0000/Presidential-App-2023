@@ -11,11 +11,11 @@
 		1D0CF3972A999B240093EF25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0CF3962A999B240093EF25 /* ContentView.swift */; };
 		1D0CF3992A999B260093EF25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0CF3982A999B260093EF25 /* Assets.xcassets */; };
 		1D0CF39C2A999B260093EF25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0CF39B2A999B260093EF25 /* Preview Assets.xcassets */; };
-		1D0CF3A32A999BC10093EF25 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0CF3A22A999BC10093EF25 /* SheetView.swift */; };
 		1D0CF3A52A999BE30093EF25 /* CandidatesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0CF3A42A999BE30093EF25 /* CandidatesManager.swift */; };
 		1D0CF3A72A999BFD0093EF25 /* CandidatesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0CF3A62A999BFD0093EF25 /* CandidatesDetailView.swift */; };
 		1D0CF3A92A999C0C0093EF25 /* Candidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0CF3A82A999C0C0093EF25 /* Candidate.swift */; };
 		1D0CF3AB2A999C210093EF25 /* Candidate+SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0CF3AA2A999C210093EF25 /* Candidate+SampleData.swift */; };
+		1D0CF3AD2A999FF10093EF25 /* AddSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0CF3AC2A999FF10093EF25 /* AddSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,11 +24,11 @@
 		1D0CF3962A999B240093EF25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1D0CF3982A999B260093EF25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D0CF39B2A999B260093EF25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1D0CF3A22A999BC10093EF25 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 		1D0CF3A42A999BE30093EF25 /* CandidatesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidatesManager.swift; sourceTree = "<group>"; };
 		1D0CF3A62A999BFD0093EF25 /* CandidatesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidatesDetailView.swift; sourceTree = "<group>"; };
 		1D0CF3A82A999C0C0093EF25 /* Candidate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candidate.swift; sourceTree = "<group>"; };
 		1D0CF3AA2A999C210093EF25 /* Candidate+SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candidate+SampleData.swift"; sourceTree = "<group>"; };
+		1D0CF3AC2A999FF10093EF25 /* AddSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 			children = (
 				1D0CF3942A999B240093EF25 /* Presidential_App_2023App.swift */,
 				1D0CF3962A999B240093EF25 /* ContentView.swift */,
-				1D0CF3A22A999BC10093EF25 /* SheetView.swift */,
+				1D0CF3AC2A999FF10093EF25 /* AddSheetView.swift */,
 				1D0CF3A42A999BE30093EF25 /* CandidatesManager.swift */,
 				1D0CF3A62A999BFD0093EF25 /* CandidatesDetailView.swift */,
 				1D0CF3A82A999C0C0093EF25 /* Candidate.swift */,
@@ -154,10 +154,10 @@
 			files = (
 				1D0CF3A72A999BFD0093EF25 /* CandidatesDetailView.swift in Sources */,
 				1D0CF3AB2A999C210093EF25 /* Candidate+SampleData.swift in Sources */,
+				1D0CF3AD2A999FF10093EF25 /* AddSheetView.swift in Sources */,
 				1D0CF3972A999B240093EF25 /* ContentView.swift in Sources */,
 				1D0CF3A52A999BE30093EF25 /* CandidatesManager.swift in Sources */,
 				1D0CF3A92A999C0C0093EF25 /* Candidate.swift in Sources */,
-				1D0CF3A32A999BC10093EF25 /* SheetView.swift in Sources */,
 				1D0CF3952A999B240093EF25 /* Presidential_App_2023App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
